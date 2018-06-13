@@ -6,11 +6,11 @@
     android:clickable="true"
     android:foreground="?android:attr/selectableItemBackground"
     android:layout_width="match_parent"
-    android:layout_height="190dp"
+    android:layout_height="130dp"
     android:layout_marginTop="40dp"
     android:layout_marginLeft="15dp"
     android:layout_marginRight="15dp"
-    android:layout_weight="2"
+    android:orientation="horizontal"
     cardview:cornerradius="4dp">
 
 
@@ -21,10 +21,10 @@
         >
 
         <ImageView
-            android:id="@+id/img1"
+            android:id="@+id/imgView_cardView"
             android:layout_gravity="center_horizontal"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="90dp"
             android:scaleType="centerCrop"
             android:background="#848484"
             />
@@ -32,19 +32,18 @@
 
         <TextView
             android:background="#0080FF"
-            android:id="@+id/txt1"
+            android:id="@+id/txtView_cardView"
             android:paddingLeft="10dp"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="12sp"
-            android:layout_gravity="center"
             />
 
         <CheckBox
             android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:id="@+id/checkbox_cardView"
             />
 
     </LinearLayout>
