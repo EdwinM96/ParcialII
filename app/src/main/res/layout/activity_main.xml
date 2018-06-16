@@ -8,11 +8,11 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/frame_inicial"
-        ></FrameLayout>
+        android:orientation="horizontal"></LinearLayout>
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
